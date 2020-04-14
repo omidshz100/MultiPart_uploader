@@ -94,19 +94,3 @@ extension Data {
          }
      }
  }
-
-
-let url = Bundle.main.path(forResource: "pic", ofType: "png")
-let img = UIImage(contentsOfFile: url!)
-
-let url2 = Bundle.main.path(forResource: "pic2", ofType: "png")
-let img2 = UIImage(contentsOfFile: url2!)
-
-
-let rec = Multi_part_Uploader()
-rec.request(stringUrl: "http://127.0.0.1:5000/uploader", parameters: ["name":"omid"], imageNames: ["pic.png","pic2.png"], images: [img!.jpegData(compressionQuality: 1.0)!,img2!.jpegData(compressionQuality: 1.0)!]) { an, err , bl in
-    
-    print(bl)
-    print("----")
-    print(err)
-}
