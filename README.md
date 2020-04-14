@@ -2,12 +2,12 @@
 swift code for uploading multi part file with post method
 
 You can use any file like : 
-.Zip
-.MKV
-.AVI
-.PNG
-.Jpeg
-. ...
+⋅⋅*Zip
+⋅⋅*MKV
+⋅⋅*AVI
+⋅⋅*PNG
+⋅⋅*Jpeg
+⋅⋅* ...
 
 Despite the file parameter name is images
 
