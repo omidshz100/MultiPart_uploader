@@ -13,7 +13,7 @@ Despite the file parameter name is images
 
 ***Example of using this code for swift 5:***
 
-
+```swift
 let url = Bundle.main.path(forResource: "pic", ofType: "png")
 let img = UIImage(contentsOfFile: url!)
 
@@ -28,3 +28,4 @@ rec.request(stringUrl: "url String", parameters: ["key1":"value1","key2":"value2
     print("----")
     print(err)
 }
+```
